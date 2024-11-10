@@ -12,6 +12,7 @@
     <!-- Dependency version -->
     <testng.version>7.10.2</testng.version>
     <selenide.version>7.5.1</selenide.version>
+
     <!-- Plugins version -->
     <plugin.maven.compiler.version>3.8.0</plugin.maven.compiler.version>
   </properties>
@@ -30,6 +31,13 @@
       <artifactId>selenide</artifactId>
       <version>${selenide.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.beust</groupId>
+      <artifactId>jcommander</artifactId>
+      <version>1.81</version>
+    </dependency>
+
 
   </dependencies>
   <build>
